@@ -69,28 +69,28 @@ function initDateRange() {
     
     const photos = [
       {
-        url: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+        url: "../imagens/primeiro.jpg",
         title: "Nosso primeiro encontro",
         date: "Maio 2023"
       },
       {
-        url: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+        url: "../imagens/IMG-20250507-WA0074.jpg",
         title: "Aquele dia na praia",
         date: "Julho 2023"
       },
       {
-        url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+        url: "../imagens/IMG-20250507-WA0077.jpg",
         title: "Nosso café favorito",
         date: "Outubro 2023"
       },
       {
         url: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-        title: "Nosso primeiro apartamento",
+        title: "Nosso futuro apartamento",
         date: "Janeiro 2024"
       },
       {
-        url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-        title: "Trabalhando juntos",
+        url: "../imagens/IMG-20250507-WA0076.jpg",
+        title: "Treino juntos",
         date: "Março 2024"
       },
       {
@@ -99,17 +99,17 @@ function initDateRange() {
         date: "Abril 2024"
       },
       {
-        url: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+        url: "../imagens/IMG-20250507-WA0057.jpg",
         title: "Sob as estrelas",
         date: "Maio 2024"
       },
       {
-        url: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
+        url: "../imagens/IMG-20250507-WA0059.jpg",
         title: "Jantar romântico",
         date: "Janeiro 2025"
       },
       {
-        url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+        url: "../imagens/IMG-20250507-WA0075.jpg",
         title: "Celebrando conquistas",
         date: "Março 2025"
       }
