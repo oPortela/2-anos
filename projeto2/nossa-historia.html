@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa História - 2 Anos de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <span class="heart">❤️</span>
+          <span>2 Anos</span>
+        </a>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nossa-historia.html" class="active">Nossa História</a></li>
+          <li><a href="poema.html">Poema</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="especial.html">Especial</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-container">
+        <select id="mobile-nav" onchange="navigateTo(this.value)">
+          <option value="index.html">Home</option>
+          <option value="nossa-historia.html" selected>Nossa História</option>
+          <option value="poema.html">Poema</option>
+          <option value="fotos.html">Fotos</option>
+          <option value="especial.html">Especial</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="story">
+      <div class="container">
+        <h1 class="page-title">Nossa História</h1>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Como Tudo Começou</h3>
+              <p class="date">Ano Novo</p>
+              <p>Naquele ano novo em que nos conversamos parecia um dia comum, mas o destino tinha planos especiais. Olhares que se cruzaram, sorrisos que se encontraram, um filme que dormi, e uma conversa que parecia não ter fim. Foi assim que nossa história começou, de forma simples, mas com a intensidade que perdura até hoje.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Nosso Primeiro Encontro</h3>
+              <p class="date">Abril 2023</p>
+              <p>Quem diria que aquele simples convite que você me fizestes para apenas curtirmos uma noite tomando uma e jogando conversa fora nos faria chegar aqui hoje</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Nosso Primeiro Encontro</h3>
+              <p class="date">Maio 2023</p>
+              <p>As borboletas no estômago, o nervosismo da primeira impressão. Lembra como estávamos nervosos? Aqueles passeios que fizemos juntos, as horas que passaram voando enquanto conversávamos sobre tudo e sobre nada. Foi naquele momento que percebi que queria passar mais e mais tempo ao seu lado.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>O Pedido de Namoro</h3>
+              <p class="date">Maio 2023</p>
+              <p>Sob as estrelas daquela noite especial, com o coração acelerado, finalmente fiz a pergunta que mudaria nossas vidas. Seu 'sim' foi o som mais doce que já ouvi, e aquele abraço selou uma promessa que cultivamos a cada dia.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Nossos Desafios</h3>
+              <p class="date">2023 - 2025</p>
+              <p>Nem todos os dias foram fáceis. Tivemos nossos altos e baixos, momentos de incerteza e dificuldades. Mas foi nesses momentos que descobrimos a força do nosso amor. A forma como superamos cada obstáculo juntos apenas fortaleceu o que sentimos um pelo outro.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>A Celebração de 2 Anos</h3>
+              <p class="date">Maio 2025</p>
+              <p>Hoje celebramos não apenas o tempo que passou, mas cada momento, cada risada, cada lágrima compartilhada. Dois anos de crescimento, aprendizado e, acima de tudo, amor. Este é apenas o começo da nossa jornada, e estou ansioso por todos os capítulos que ainda vamos escrever juntos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Feito com <span class="heart">❤️</span> para você</p>
+      <p class="dates" id="date-range"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poema - 2 Anos de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <span class="heart">❤️</span>
+          <span>2 Anos</span>
+        </a>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nossa-historia.html">Nossa História</a></li>
+          <li><a href="poema.html" class="active">Poema</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="especial.html">Especial</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-container">
+        <select id="mobile-nav" onchange="navigateTo(this.value)">
+          <option value="index.html">Home</option>
+          <option value="nossa-historia.html">Nossa História</option>
+          <option value="poema.html" selected>Poema</option>
+          <option value="fotos.html">Fotos</option>
+          <option value="especial.html">Especial</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="poem">
+      <div class="container">
+        <h1 class="page-title">Para Você, Meu Amor</h1>
+        
+        <div class="poem-container">
+          <div class="poem-heart">❤️</div>
+          
+          <div class="poem-content" id="poem-content">
+            <p>Dois anos de amor, de mãos entrelaçadas</p>
+            <p>De sorrisos compartilhados, de almas conectadas</p>
+            <p>No teu olhar eu encontro meu abrigo</p>
+            <p>No teu abraço descubro o meu destino.</p>
+            <br>
+            <p>Lembro do início, tímido e incerto</p>
+            <p>Do coração acelerado, do futuro aberto</p>
+            <p>Hoje celebro cada instante ao teu lado</p>
+            <p>Cada momento, precioso e sagrado.</p>
+            <br>
+            <p>Nas alegrias, foste meu sorriso</p>
+            <p>Nas tristezas, meu conforto improviso</p>
+            <p>Juntos construímos nosso próprio mundo</p>
+            <p>Um amor sincero, puro e profundo.</p>
+            <br>
+            <p>Dois anos se passaram, como num sonho bom</p>
+            <p>E só aumenta esta paixão, como doce som</p>
+            <p>Que ecoa em minha alma dia após dia</p>
+            <p>Preenchendo meu ser de paz e alegria.</p>
+            <br>
+            <p>Por mais difícil que a vida possa ser</p>
+            <p>Contigo ao meu lado, não há o que temer</p>
+            <p>Pois sei que juntos, podemos tudo enfrentar</p>
+            <p>E novos capítulos da nossa história criar.</p>
+            <br>
+            <p>Obrigado por ser exatamente quem você é</p>
+            <p>Por me amar mesmo com todas as minhas falhas</p>
+            <p>Por me fazer querer ser uma pessoa melhor</p>
+            <p>Por me mostrar o verdadeiro significado do amor.</p>
+            <br>
+            <p>Feliz dois anos, meu amor</p>
+            <p>Que venham muitos mais pela frente</p>
+            <p>Com a certeza de que este sentimento</p>
+            <p>Só cresce e se fortalece eternamente.</p>
+          </div>
+          
+          <div id="fade-overlay" class="fade-overlay"></div>
+          <button id="read-more" class="btn">Ler o poema completo</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Feito com <span class="heart">❤️</span> para você</p>
+      <p class="dates" id="date-range"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

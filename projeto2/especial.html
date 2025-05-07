@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especial - 2 Anos de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <span class="heart">❤️</span>
+          <span>2 Anos</span>
+        </a>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nossa-historia.html">Nossa História</a></li>
+          <li><a href="poema.html">Poema</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="especial.html" class="active">Especial</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-container">
+        <select id="mobile-nav" onchange="navigateTo(this.value)">
+          <option value="index.html">Home</option>
+          <option value="nossa-historia.html">Nossa História</option>
+          <option value="poema.html">Poema</option>
+          <option value="fotos.html">Fotos</option>
+          <option value="especial.html" selected>Especial</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="special">
+      <div class="container">
+        <h1 class="page-title">Para Você, Meu Amor</h1>
+        
+        <div class="special-container">
+          <div id="hearts-container" class="hearts-container"></div>
+          
+          <div class="message-box">
+            <h2>Para Fazer Você Se Sentir Especial</h2>
+            
+            <div id="initial-message" class="initial-message">
+              <p>Para celebrar os nossos 2 anos juntos, preparei algumas mensagens especiais para você. Cada uma delas revela um pouco do que sinto por você, do quanto você é importante na minha vida.</p>
+              <p>Clique no botão abaixo para revelar uma mensagem de amor. São pequenas lembranças dos motivos pelos quais me apaixonei por você e continuo me apaixonando a cada dia.</p>
+              <button id="reveal-btn" class="btn special-btn">Revelar Mensagem Especial</button>
+            </div>
+            
+            <div id="special-message" class="special-message hidden">
+              <p id="message-text"></p>
+              <button id="next-btn" class="btn special-btn">Próxima Mensagem</button>
+            </div>
+          </div>
+          
+          <p class="love-quote">Você é e sempre será o amor da minha vida.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Feito com <span class="heart">❤️</span> para você</p>
+      <p class="dates" id="date-range"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
